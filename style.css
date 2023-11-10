@@ -1,0 +1,116 @@
+body {
+    font-family: sans-serif;
+    background-color: #CDA43C;
+    text-shadow: 2px 2px 2px 0 gray;
+}
+
+.d{
+    border: 3px solid black;
+    background-image: linear-gradient(to right bottom, white, #975C25 , #D27926);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    margin: 0px;
+    color: black;
+    position: relative;
+    top: 29px;
+    right: 2.5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color:#774E27;
+}
+
+a{
+    text-decoration: none;
+    color:#774E27;
+}
+
+main{
+    background-color: #F1AA83;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.g{
+    color: white;
+    padding: 5px;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.r{
+    width: 600px;
+}
+
+img{
+    border:3px solid black;
+    border-radius: 30px;
+    margin: 30px;
+    width: 300px;
+    height: 370px;
+    box-shadow: 5px 5px 5px 0 gray;
+
+}
+
+.div{
+    opacity: 0.3;
+}
+
+.div:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+.href{
+    border: 3px solid black;
+    border-radius: 30%;
+    padding: 5px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+.href:hover{
+    box-shadow: 2px 2px 5px 0 black;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
+
+.img:hover{
+    width: 320px;
+    height: 390px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    transition: 2s;
+}
+
+nav a{
+    border: black solid 3px;
+    border-radius: 30px;
+    padding: 7px;
+    width: 100px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+nav a:hover{
+    box-shadow: 2px 2px 5px 0 black;
+    position: relative;
+    left: 2px;
+    top: 2px;
+}
